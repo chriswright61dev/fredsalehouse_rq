@@ -1,5 +1,22 @@
+import "./HeaderLogo.css";
+import useVenue from "../../../data/reactQueryHooks/useVenue";
+import { Link } from "react-router-dom";
 function HeaderLogo() {
-  return <div>'logo'</div>;
+  const venue = useVenue();
+
+  if (venue.status === "success") {
+    const venueData = venue.data[0];
+
+    return (
+      <Link to="/">
+        <div className="header_logo">
+          <img src={venueData.venue_logo} alt={venueData.venue_name} />
+        </div>
+      </Link>
+    );
+  } else {
+    return null;
+  }
 }
 
 export default HeaderLogo;

@@ -10,8 +10,8 @@ const queryClient = new QueryClient();
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <Header />
       <Router>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>
         </Routes>
