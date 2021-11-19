@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="footer">
+    <footer>
       <div className="lpc-venue-block">
         <h3>
           <a href="http://www.levenshulmepubcompany.co.uk">
@@ -81,21 +81,7 @@ function Footer() {
         </p>
         <p>0161 432 6441</p>
       </div>
-      {/* <div className="lpc-venue-block">
-        <a href="http://www.m19bar.com">
-          <h4>M19 Bar</h4>
-        </a>
-        <p>
-          847 Stockport Road
-          <br />
-          Levenshulme
-          <br />
-          Manchester
-          <br />
-          M19 3PW
-        </p>
-        <p>0161 224 8135</p>
-      </div> */}
+
       <div className="lpc-venue-block">
         <a href="http://www.hennigansbar.co.uk">
           <h4>Hennigan's Sports Bar</h4>
@@ -111,7 +97,7 @@ function Footer() {
         </p>
         <p>0161 257 2702</p>
       </div>
-    </div>
+    </footer>
   );
 }
 
