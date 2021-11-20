@@ -5,7 +5,6 @@ function PosterEvents() {
   const posterEvents = usePosterEvents();
   if (posterEvents.status === "success") {
     const peData = posterEvents.data;
-    console.log(peData);
     if (peData.length === 0) {
       return null;
     } else {
