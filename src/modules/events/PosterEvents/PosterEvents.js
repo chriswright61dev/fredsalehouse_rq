@@ -17,7 +17,6 @@ function PosterEvents() {
                 key={anEvent.id}
                 name={anEvent.poster_event_title}
                 imageURL={anEvent.poster_event_image}
-                date={anEvent.poster_event_date}
               />
             );
           })}
