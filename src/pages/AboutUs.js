@@ -4,7 +4,7 @@ import VenueOpeningTimes from "../modules/venue/VenueOpeningTimes/VenueOpeningTi
 import BeerNews from "../modules/news/BeerNews";
 import OfferNews from "../modules/news/OfferNews";
 import GuestAles from "../modules/drinks/GuestAles/GuestAles";
-
+import GMap from "../components/GMap/GMap";
 function AboutUs() {
   return (
     <>
@@ -14,6 +14,7 @@ function AboutUs() {
       <BeerNews />
       <OfferNews />
       <GuestAles />
+      <GMap />
     </>
   );
 }
