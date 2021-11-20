@@ -1,5 +1,7 @@
+import JobsList from "../modules/jobs/JobsList";
+
 function Jobs() {
-  return <div>'jobs'</div>;
+  return <JobsList />;
 }
 
 export default Jobs;

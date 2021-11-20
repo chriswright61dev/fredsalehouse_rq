@@ -1,5 +1,5 @@
 import useJobs from "../../data/reactQueryHooks/useJobs";
-import JobsShort from "./JobsShort";
+import JobsShort from "./JobsShort/JobsShort";
 
 function JobsList() {
   const jobs = useJobs();
@@ -16,7 +16,7 @@ function JobsList() {
             return (
               <JobsShort
                 key={job.id}
-                job_id={job.id}
+                id={job.id}
                 title={job.job_title}
                 description={job.job_short_description}
               />

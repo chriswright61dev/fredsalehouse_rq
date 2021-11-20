@@ -1,7 +1,7 @@
-import { useParams } from "react-router-dom";
-import useJobs from "../../data/reactQueryHooks/useJobs";
 import "./JobDetail.css";
-import EmailLink from "../../components/EmailLink/EmailLink";
+import { useParams } from "react-router-dom";
+import useJobs from "../../../data/reactQueryHooks/useJobs";
+import EmailLink from "../../../components/EmailLink/EmailLink";
 
 function JobDetail() {
   let { job_id } = useParams();
@@ -22,7 +22,7 @@ function JobDetail() {
       </div>
     );
   } else {
-    return "job data loading";
+    return null;
   }
 }
 

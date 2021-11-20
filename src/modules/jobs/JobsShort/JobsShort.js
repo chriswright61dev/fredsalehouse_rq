@@ -1,13 +1,12 @@
 import React from "react";
 import "./JobsShort.css";
 import { Link } from "react-router-dom";
-function JobsShort(props) {
-  // console.log("props in jobs short", props);
+function JobsShort({ id, title, description }) {
   return (
-    <Link to={`/jobs/${props.job_id}`}>
+    <Link to={`/jobs/${id}`}>
       <div className="jobsListItem">
-        <h3> {props.title}</h3>
-        <p>{props.description}</p>
+        <h3> {title}</h3>
+        <p>{description}</p>
         <p>Click for details</p>
       </div>
     </Link>
