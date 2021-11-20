@@ -5,6 +5,7 @@ import BeerNews from "../modules/news/BeerNews";
 import OfferNews from "../modules/news/OfferNews";
 import GuestAles from "../modules/drinks/GuestAles/GuestAles";
 import GMap from "../components/GMap/GMap";
+import GStreetView from "../components/GStreetView/GStreetView";
 function AboutUs() {
   return (
     <>
@@ -15,6 +16,7 @@ function AboutUs() {
       <OfferNews />
       <GuestAles />
       <GMap />
+      <GStreetView />
     </>
   );
 }
