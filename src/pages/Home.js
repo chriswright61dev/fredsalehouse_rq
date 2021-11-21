@@ -15,12 +15,22 @@ function Home() {
     const themeName = themeSelect();
     return (
       <div className={themeName}>
-        <Venue />
-        <VenueAbout />
-        <VenueOpeningTimes />
-        <BeerNews />
-        <OfferNews />
-        <GuestAles />
+        <div className="container">
+          <div className="info_column">
+            <Venue />
+          </div>
+          <div className="info_column">
+            <VenueAbout />
+            <VenueOpeningTimes />
+          </div>
+          <div className="info_column">
+            <BeerNews />
+            <OfferNews />
+          </div>
+          <div className="info_column">
+            <GuestAles />
+          </div>
+        </div>{" "}
       </div>
     );
   } else {
