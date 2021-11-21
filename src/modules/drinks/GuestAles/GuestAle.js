@@ -1,4 +1,5 @@
 import ImageContainer from "../../../components/ImageContainer/ImageContainer";
+import HtmlBox from "../../../components/HtmlBox/HtmlBox";
 function GuestAle({
   drinkName,
   pintPrice,
@@ -22,7 +23,10 @@ function GuestAle({
         </div>
       </div>
       <p className="guest_ale__description"> {aleDescription} </p>
-      <p className="guest_ale__description">{longerAleDescription} </p>
+      <HtmlBox
+        content={longerAleDescription}
+        className="guest_ale__description"
+      />
     </div>
   );
 }

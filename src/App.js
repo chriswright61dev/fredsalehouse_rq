@@ -6,7 +6,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Events from "./pages/Events";
-import Event from "./pages/Events";
+import Event from "./pages/Event";
 import Drinks from "./pages/Drinks";
 import Jobs from "./pages/Jobs";
 import Job from "./pages/Job";
@@ -23,11 +23,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/aboutus" element={<AboutUs />}></Route>
+          <Route path="/drinks" element={<Drinks />}></Route>
 
           <Route path="/events" element={<Events />}></Route>
-          <Route path="/events/:id" element={<Event />}></Route>
+          <Route path="/events/:event_id" element={<Event />}></Route>
 
-          <Route path="/drinks" element={<Drinks />}></Route>
           <Route path="/jobs" element={<Jobs />}></Route>
           <Route path="/jobs/:job_id" element={<Job />}></Route>
         </Routes>

@@ -1,7 +1,5 @@
 import useEvents from "../../../data/reactQueryHooks/useEvents";
-
 import EventCard from "../../../components/EventCard/EventCard";
-
 import "./DatedEvents.css";
 function DatedEvents() {
   const events = useEvents();

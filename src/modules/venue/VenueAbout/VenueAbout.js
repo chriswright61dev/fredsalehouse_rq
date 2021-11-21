@@ -1,13 +1,10 @@
 import useVenue from "../../../data/reactQueryHooks/useVenue";
+import HtmlBox from "../../../components/HtmlBox/HtmlBox";
 function VenueAbout() {
   const venue = useVenue();
   if (venue.status === "success") {
     const venueData = venue.data[0];
-    return (
-      <div>
-        <p> {venueData.venue_about}</p>
-      </div>
-    );
+    return <HtmlBox content={venueData.venue_about} className="venue_about" />;
   } else {
     return null;
   }
