@@ -1,7 +1,7 @@
 import HeaderLogo from "./HeaderLogo/HeaderLogo";
 import HeaderVenueDescription from "./HeaderVenueDescription/HeaderVenueDescription";
 import HeaderLinks from "./HeaderLinks/HeaderLinks";
-import NewsAnnouncement from "./NewsAnnouncement/NewsAnnouncement";
+import Announcement from "../../modules/news/Announcement";
 
 function Header() {
   return (
@@ -9,7 +9,7 @@ function Header() {
       <HeaderLogo />
       <HeaderVenueDescription />
       <HeaderLinks />
-      <NewsAnnouncement />
+      <Announcement />
     </header>
   );
 }

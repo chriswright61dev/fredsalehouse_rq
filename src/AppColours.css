@@ -1,4 +1,6 @@
 :root {
+  --alert-bg-color: rgb(231, 216, 6);
+
   --theme_light_text_color: rgb(15, 15, 15);
   --theme_dark_text_color: rgb(215, 215, 215);
 
