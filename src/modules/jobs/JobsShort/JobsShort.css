@@ -5,6 +5,7 @@
 }
 .theme_dark .jobsListItem {
   background-color: var(--dark_box_bg_color);
+  padding: 1rem;
 }
 
 .theme_dark .jobslist a {
