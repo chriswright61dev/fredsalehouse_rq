@@ -1,5 +1,7 @@
 import ImageContainer from "../../../components/ImageContainer/ImageContainer";
 import HtmlBox from "../../../components/HtmlBox/HtmlBox";
+import "./GuestAle.css";
+
 function GuestAle({
   drinkName,
   pintPrice,

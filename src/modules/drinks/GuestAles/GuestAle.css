@@ -1,0 +1,8 @@
+.guest_ale {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 7px 8px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 7px 8px 2px rgba(0, 0, 0, 0.25);
+  margin-top: 1.5rem;
+  text-align: center;
+}

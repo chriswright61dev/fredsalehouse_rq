@@ -99,3 +99,46 @@ export function hasDatePassed(date) {
   }
   return HasEventPassed;
 }
+
+export function beersLastChanged(guestDrinkArray) {
+  const beerschanged = guestDrinkArray.map((drink) => drink.changed);
+  const sorted_dates = beerschanged.sort();
+  const lastDate = sorted_dates[sorted_dates.length - 1];
+
+  let DateObject = new Date(lastDate);
+  const LastChangedDay = DateObject.getDay();
+  const dayOutput = dayOfWeekName(LastChangedDay);
+  let LastChangedDayofMonth = DateObject.getDate();
+  LastChangedDayofMonth = dateSuffix(LastChangedDayofMonth);
+  const LastChangedMonth = DateObject.getMonth();
+  const monthOutput = monthName(LastChangedMonth);
+  const LastChangedHour = DateObject.getHours();
+  // const LastChangedMinutes = DateObject.getMinutes();
+  let hourOutput = "";
+  // don't want :00pm
+  let LastChangedMins = "";
+  // LastChangedMinutes === "00" ? "" : ":" + LastChangedMinutes;
+
+  let hour = parseInt(LastChangedHour);
+  if (hour < 12) {
+    hourOutput = LastChangedHour + LastChangedMins + "am";
+  }
+  if (hour === 12) {
+    hourOutput = LastChangedHour + LastChangedMins + "pm";
+  }
+  if (hour > 12) {
+    hourOutput = hour - 12 + LastChangedMins + "pm";
+  }
+
+  const outputString =
+    "updated on " +
+    dayOutput +
+    " " +
+    LastChangedDayofMonth +
+    " " +
+    monthOutput +
+    " around " +
+    hourOutput;
+
+  return outputString;
+}
