@@ -6,3 +6,46 @@
   margin-top: 1.5rem;
   text-align: center;
 }
+
+.theme_dark .guest_ale {
+  background-color: var(--darker_box_bg_color);
+}
+
+.guest_ale__name {
+  width: 100%;
+  align-items: center;
+  background: var(--box_header_color);
+  border-radius: 10px 10px 0 0;
+  color: var(--theme_dark_text_color);
+  display: flex;
+  justify-content: center;
+  min-height: 4rem;
+}
+
+.guest_ale__container {
+  display: flex;
+}
+
+.guest_ale__image {
+  width: 50%;
+}
+
+.guest_ale__prices {
+  width: 50%;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.guest_ale__price {
+  font-weight: 600;
+  padding-bottom: 0;
+}
+
+.theme_dark .guest_ale__price {
+  color: var(--theme_dark_price_color);
+}
+.guest_ale__description {
+  width: 100%;
+  /* margin-top: 1rem; */
+  padding: 1rem;
+}

@@ -24,7 +24,7 @@ function GuestAle({
           <p>a Pint</p>
         </div>
       </div>
-      <p className="guest_ale__description"> {aleDescription} </p>
+
       <HtmlBox
         content={longerAleDescription}
         className="guest_ale__description"
