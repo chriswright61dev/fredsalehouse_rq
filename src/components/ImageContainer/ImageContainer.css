@@ -6,12 +6,19 @@
   background-size: cover;
 }
 
+.add_margin {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.no_margin {
+  margin: 0;
+}
+
 .square {
   position: relative;
   /* background: red; */
   max-width: 360px;
-  /* margin-top: 1rem;
-  margin-bottom: 1rem; */
 }
 
 .square:after {

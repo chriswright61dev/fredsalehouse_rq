@@ -19,6 +19,7 @@ function BeerNews() {
                       type="square"
                       source={newsItem.news_image}
                       altText={newsItem.news_title}
+                      marginType="add_margin"
                     />
                   ) : null}
                 </div>
