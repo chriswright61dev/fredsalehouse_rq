@@ -1,0 +1,6 @@
+.header-venue-description {
+  color: var(--theme_dark_header_text);
+
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}

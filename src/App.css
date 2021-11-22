@@ -12,29 +12,17 @@
 
 .detail_column {
   width: 100%;
+  padding: 0.5rem;
 }
 
 .flexy_column {
   width: 100%;
+  padding: 0.5rem;
 }
-
-/* @media (min-width: 576px) {
-.info_column
- {
-  width: 100%;
-}
-
-.detail_column {
-  width: 100%;
-  margin: 2%;
-}
-
-} */
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .container {
-    /* min-height: 250vh; */
   }
 
   .info_column {
@@ -50,7 +38,6 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .container {
-    /* min-height: 250vh; */
   }
 
   .info_column {
@@ -67,7 +54,6 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .container {
-    /* min-height: 250vh; */
   }
 
   .info_column {
@@ -78,14 +64,9 @@
   .detail_column {
     width: 46%;
     margin: 1%;
-    /* margin-top: 0; */
   }
 
   .flexy_column {
-    /* background-color: rgb(248, 0, 0);
-    color: yellow; */
     width: 75%;
-    /* display: flex; */
-    /* just fill up the space */
   }
 }

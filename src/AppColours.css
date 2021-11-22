@@ -1,11 +1,17 @@
 :root {
+  --theme_dark_bg_color: rgb(5, 35, 45);
+  --theme_dark_text_color: rgb(215, 215, 215);
+  --theme_dark_header_bg: rgb(37, 33, 28);
+  --theme_dark_header_text: rgb(238, 231, 231);
+  --theme_dark_link_color: rgb(215, 215, 215);
+  --theme_dark_link_highlight_color: rgb(237, 245, 122);
+
   --alert-bg-color: rgb(231, 216, 6);
 
   --theme_light_text_color: rgb(15, 15, 15);
-  --theme_dark_text_color: rgb(215, 215, 215);
 
   --theme_light_bg_color: rgb(115, 190, 220);
-  --theme_dark_bg_color: rgb(5, 35, 45);
+
   --theme_darker_bg_color: rgb(6, 22, 27);
   --theme_light_price_color: rgb(145, 20, 19);
   --theme_dark_price_color: rgb(210, 210, 10);

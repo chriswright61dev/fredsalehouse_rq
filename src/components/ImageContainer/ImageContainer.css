@@ -10,6 +10,8 @@
   position: relative;
   /* background: red; */
   max-width: 360px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .square:after {

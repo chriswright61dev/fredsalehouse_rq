@@ -1,4 +1,5 @@
 import useVenue from "../../../data/reactQueryHooks/useVenue";
+import "./HeaderVenueDescription.css";
 function HeaderVenueDescription() {
   const venue = useVenue();
 
