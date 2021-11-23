@@ -6,7 +6,7 @@ function Job() {
     <div className={themeName}>
       <div className="container">
         <div className="detail_column">
-          <JobDetail />;
+          <JobDetail />
         </div>
         <div className="info_column"> </div>
         <div className="info_column"> </div>

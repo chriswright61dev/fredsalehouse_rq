@@ -10,23 +10,20 @@ import SportsEvents from "../modules/events/SportsEvents/SportsEvents";
 function Home() {
   const venue = useVenue();
   if (venue.status === "success") {
-    // add a loading screen before success
-    // this is the first load page - data is pulled in in each module
-
     const themeName = themeSelect();
     return (
       <div className={themeName}>
         <div className="container">
           <div className="info_column">
             <Venue />
-          </div>
-          <div className="info_column">
             <VenueAbout />
             <VenueOpeningTimes />
+            <OfferNews />
           </div>
           <div className="info_column">
             <BeerNews />
-            <OfferNews />
+          </div>
+          <div className="info_column">
             <GuestAles />
           </div>
           <div className="info_column">
