@@ -1,7 +1,7 @@
 import "./Header.css";
 import HeaderLogo from "./HeaderLogo/HeaderLogo";
 import HeaderVenueDescription from "./HeaderVenueDescription/HeaderVenueDescription";
-import HeaderLinks from "./HeaderLinks/HeaderLinks";
+// import HeaderLinks from "./HeaderLinks/HeaderLinks";
 import Announcement from "../../modules/news/Announcement";
 
 function Header() {
@@ -9,7 +9,7 @@ function Header() {
     <header>
       <HeaderLogo />
       <HeaderVenueDescription />
-      <HeaderLinks />
+      {/* <HeaderLinks /> */}
       <Announcement />
     </header>
   );

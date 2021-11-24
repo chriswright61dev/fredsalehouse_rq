@@ -1,5 +1,6 @@
 import useVenue from "../../../data/reactQueryHooks/useVenue";
 import HtmlBox from "../../../components/HtmlBox/HtmlBox";
+import "./VenueAbout.css";
 function VenueAbout() {
   const venue = useVenue();
   if (venue.status === "success") {

@@ -6,7 +6,11 @@ import VenueOpeningTimes from "../modules/venue/VenueOpeningTimes/VenueOpeningTi
 import BeerNews from "../modules/news/BeerNews";
 import OfferNews from "../modules/news/OfferNews";
 import GuestAles from "../modules/drinks/GuestAles/GuestAles";
-import SportsEvents from "../modules/events/SportsEvents/SportsEvents";
+import PosterEvents from "../modules/events/PosterEvents/PosterEvents";
+import RegularEvents from "../modules/events/RegularEvents/RegularEvents";
+import DatedEvents from "../modules/events/DatedEvents/DatedEvents";
+// import SportsEvents from "../modules/events/SportsEvents/SportsEvents";
+import LinkBox from "../components/textBoxes/LinkBox";
 function Home() {
   const venue = useVenue();
   if (venue.status === "success") {
@@ -18,16 +22,26 @@ function Home() {
             <Venue />
             <VenueAbout />
             <VenueOpeningTimes />
-            <OfferNews />
           </div>
           <div className="info_column">
+            <OfferNews />
+            <LinkBox
+              text="Jobs with the Levenshulme Pub Company"
+              link="/jobs"
+            />
             <BeerNews />
           </div>
           <div className="info_column">
             <GuestAles />
+
+            <LinkBox text="Drinks served at Freds Ale House" link="/drinks" />
           </div>
+
           <div className="info_column">
-            <SportsEvents />
+            <LinkBox text="Whats on at Freds" link="/events" />
+            <PosterEvents />
+            <DatedEvents />
+            <RegularEvents />
           </div>
         </div>
       </div>

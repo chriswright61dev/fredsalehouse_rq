@@ -6,6 +6,7 @@ footer a {
 }
 
 footer {
+  margin-bottom: 4rem;
   display: flex;
   font-size: 16px;
   flex-wrap: wrap;
