@@ -23,6 +23,7 @@ function Home() {
           <div className="info_column">
             <Venue />
             <VenueAbout />
+            <LinkBox text="Show Freds on the Map" link="/aboutus" />
             <VenueOpeningTimes />
           </div>
           <div className="info_column">

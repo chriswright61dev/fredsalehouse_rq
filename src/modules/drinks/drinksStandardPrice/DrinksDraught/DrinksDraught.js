@@ -3,7 +3,7 @@ import DrinkDraught from "./DrinkDraught";
 
 function DrinksDraught() {
   const drinks = useDrinks();
-  console.log("drinks", drinks);
+
   if (drinks.status === "success") {
     const drinksData = drinks.data;
     const draughtData = drinksData.filter(
