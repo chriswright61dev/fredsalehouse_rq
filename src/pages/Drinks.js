@@ -4,11 +4,13 @@ import DrinksSpirits from "../modules/drinks/drinksStandardPrice/DrinksSpirits/D
 import DrinksBottled from "../modules/drinks/drinksStandardPrice/DrinksBottled/DrinksBottled";
 import DrinksTypeHeader from "../modules/drinks/drinksStandardPrice/DrinkTypeHeader/DrinkTypeHeader";
 import GuestAles from "../modules/drinks/GuestAles/GuestAles";
+import PageTop from "../components/PageTop/Pagetop";
 function Drinks() {
   const themeName = themeSelect();
   return (
     <div className={themeName}>
       <div className="container">
+        <PageTop />
         <div className="info_column">
           <GuestAles />
         </div>

@@ -10,6 +10,7 @@ import PosterEvents from "../modules/events/PosterEvents/PosterEvents";
 import RegularEvents from "../modules/events/RegularEvents/RegularEvents";
 import DatedEvents from "../modules/events/DatedEvents/DatedEvents";
 // import SportsEvents from "../modules/events/SportsEvents/SportsEvents";
+import PageTop from "../components/PageTop/Pagetop";
 import LinkBox from "../components/textBoxes/LinkBox";
 function Home() {
   const venue = useVenue();
@@ -18,6 +19,7 @@ function Home() {
     return (
       <div className={themeName}>
         <div className="container">
+          <PageTop />
           <div className="info_column">
             <Venue />
             <VenueAbout />
@@ -36,7 +38,6 @@ function Home() {
 
             <LinkBox text="Drinks served at Freds Ale House" link="/drinks" />
           </div>
-
           <div className="info_column">
             <LinkBox text="Whats on at Freds" link="/events" />
             <PosterEvents />
