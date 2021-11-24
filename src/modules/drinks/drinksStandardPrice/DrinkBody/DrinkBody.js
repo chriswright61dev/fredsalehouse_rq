@@ -8,13 +8,19 @@ function DrinkBody({
 }) {
   return (
     <div className="drink__price__container">
-      <p className="bottle_size">{bottleSize ? `£ ${bottleSize}` : null}</p>
-      <p className="drink_price">
-        {firstPrice ? `£ ${firstPrice} ${firstText}` : " "}
-      </p>
-      <p className="drink_price">
-        {secondPrice ? `£ ${secondPrice} ${secondText}` : null}
-      </p>
+      {firstPrice ? (
+        <p className="drink_price">
+          £ {firstPrice} {firstText}
+        </p>
+      ) : null}
+
+      {secondPrice ? (
+        <p className="drink_price">
+          £ {secondPrice} {secondText}{" "}
+        </p>
+      ) : null}
+
+      {bottleSize ? <p className="bottle_size"> {bottleSize}</p> : null}
     </div>
   );
 }
