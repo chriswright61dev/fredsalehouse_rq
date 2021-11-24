@@ -14,7 +14,7 @@ import Job from "./pages/Job";
 
 import Header from "./modules/Header/Header";
 import Footer from "./modules/Footer/Footer";
-
+import Navigation from "./modules/Navigation/Navigation";
 const queryClient = new QueryClient();
 function App() {
   return (
@@ -32,8 +32,10 @@ function App() {
           <Route path="/jobs" element={<Jobs />}></Route>
           <Route path="/jobs/:job_id" element={<Job />}></Route>
         </Routes>
+
+        <Footer />
+        <Navigation />
       </Router>
-      <Footer />
     </QueryClientProvider>
   );
 }
