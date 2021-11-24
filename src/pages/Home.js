@@ -28,10 +28,7 @@ function Home() {
           </div>
           <div className="info_column">
             <OfferNews />
-            <LinkBox
-              text="Jobs with the Levenshulme Pub Company"
-              link="/jobs"
-            />
+
             <BeerNews />
           </div>
           <div className="info_column">
@@ -44,6 +41,10 @@ function Home() {
             <PosterEvents />
             <DatedEvents />
             <RegularEvents />
+            <LinkBox
+              text="Jobs with the Levenshulme Pub Company"
+              link="/jobs"
+            />
           </div>
         </div>
       </div>
