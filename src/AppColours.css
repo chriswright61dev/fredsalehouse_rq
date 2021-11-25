@@ -28,7 +28,10 @@
   --box_header_color: rgb(135, 20, 10);
 
   --light_box_bg_color: rgb(240, 240, 220);
+  --footer_link_color: rgb(138, 39, 9);
+  --footer_text_color: rgb(6, 22, 27);
 }
+
 .alert {
   color: var(--alert-color);
 }

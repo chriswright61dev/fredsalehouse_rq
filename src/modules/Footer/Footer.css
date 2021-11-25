@@ -1,8 +1,8 @@
 footer {
-  color: rgba(63, 39, 32, 0.555);
+  color: var(--footer_text_color);
 }
 footer a {
-  color: rgb(255, 60, 0);
+  color: var(--footer_link_color);
 }
 
 footer {
