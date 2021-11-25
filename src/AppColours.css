@@ -5,7 +5,8 @@
   --theme_dark_header_text: rgb(238, 231, 231);
   --theme_dark_link_color: rgb(215, 215, 215);
   --theme_dark_link_highlight_color: rgb(237, 245, 122);
-
+  --theme_dark_link_bg_highlight_color: rgb(255, 174, 0);
+  --theme_dark_link_text_highlight_color: rgb(36, 25, 3);
   --alert-bg-color: rgb(231, 216, 6);
 
   --theme_light_text_color: rgb(15, 15, 15);

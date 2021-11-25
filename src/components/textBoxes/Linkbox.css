@@ -13,3 +13,18 @@ a .link_box {
   color: var(--theme_dark_link_color);
   text-decoration: underline;
 }
+
+a :visited .link_box {
+  color: var(--theme_dark_link_color);
+  text-decoration: underline;
+}
+
+.theme_dark a:hover .link_box {
+  background-color: var(--theme_dark_link_bg_highlight_color);
+  color: var(--theme_dark_link_text_highlight_color);
+}
+
+.theme_dark a:active .link_box {
+  background-color: var(--theme_dark_link_bg_highlight_color);
+  color: var(--theme_dark_link_text_highlight_color);
+}
