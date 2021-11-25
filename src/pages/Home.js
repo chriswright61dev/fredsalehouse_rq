@@ -23,18 +23,13 @@ function Home() {
           <div className="info_column">
             <Venue />
             <VenueAbout />
-            <LinkBox text="Show Freds on the Map" link="/aboutus" />
-            <VenueOpeningTimes />
+            <LinkBox text="Show Freds Ale House Location" link="/aboutus" />
           </div>
           <div className="info_column">
+            <VenueOpeningTimes />
             <OfferNews />
 
             <BeerNews />
-          </div>
-          <div className="info_column">
-            <GuestAles />
-
-            <LinkBox text="Drinks served at Freds Ale House" link="/drinks" />
           </div>
           <div className="info_column">
             <LinkBox text="Whats on at Freds" link="/events" />
@@ -45,6 +40,11 @@ function Home() {
               text="Jobs with the Levenshulme Pub Company"
               link="/jobs"
             />
+          </div>
+          <div className="info_column">
+            <GuestAles />
+
+            <LinkBox text="Drinks served at Freds Ale House" link="/drinks" />
           </div>
         </div>
       </div>
