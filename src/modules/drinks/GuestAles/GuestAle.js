@@ -12,7 +12,8 @@ function GuestAle({
 }) {
   return (
     <div className="guest_ale">
-      <p className="guest_ale__name"> {drinkName}</p>
+      <HtmlBox content={drinkName} className="guest_ale__name" />
+      {/* <p className="guest_ale__name"> {drinkName}</p> */}
       <div className="guest_ale__container">
         <div className="guest_ale__image">
           <ImageContainer type="square" source={photo} alt={drinkName} />
