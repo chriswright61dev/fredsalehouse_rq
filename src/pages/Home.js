@@ -44,7 +44,7 @@ function Home() {
           <div className="info_column">
             <GuestAles />
 
-            <LinkBox text="Drinks served at Freds Ale House" link="/drinks" />
+            {/* <LinkBox text="Drinks served at Freds Ale House" link="/drinks" /> */}
           </div>
         </div>
       </div>

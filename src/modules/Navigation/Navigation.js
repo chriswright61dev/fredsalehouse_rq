@@ -12,9 +12,9 @@ function Navigation() {
           <Link to="/aboutus">About Us</Link>
         </li>
 
-        <li>
+        {/* <li>
           <Link to="/drinks">Drinks</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

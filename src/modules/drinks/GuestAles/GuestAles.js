@@ -14,6 +14,7 @@ function GuestAles() {
     return (
       <div className="guest_ales">
         <GuestAlesHeader changed={beerschanged} />
+
         {guestAlesData.map((drink) => {
           return (
             <>
@@ -24,6 +25,7 @@ function GuestAles() {
                 pintPrice={drink.price_pint}
                 aleDescription={drink.guestaledescription}
                 longerAleDescription={drink.longer_guestaledescription}
+                abv={drink.abv}
                 photo={drink.photo}
               ></GuestAle>
             </>

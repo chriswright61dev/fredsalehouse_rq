@@ -3,6 +3,9 @@
   --theme_dark_text_color: rgb(215, 215, 215);
   --theme_dark_header_bg: rgb(37, 33, 28);
   --theme_dark_header_text: rgb(238, 231, 231);
+  --theme_dark_nav_bg: rgb(27, 25, 22);
+  --theme_dark_footer_link_color: rgb(245, 207, 101);
+
   --theme_dark_link_color: rgb(215, 215, 215);
   --theme_dark_link_highlight_color: rgb(237, 245, 122);
   --theme_dark_link_bg_highlight_color: rgb(255, 174, 0);
@@ -46,6 +49,55 @@
   color: var(--theme_dark_text_color);
   background-color: var(--theme_dark_bg_color);
 }
+
+/* :root {
+  --theme_dark_bg_color: rgb(5, 35, 45);
+  --theme_dark_text_color: rgb(215, 215, 215);
+  --theme_dark_header_bg: rgb(37, 33, 28);
+  --theme_dark_header_text: rgb(238, 231, 231);
+  --theme_dark_link_color: rgb(215, 215, 215);
+  --theme_dark_link_highlight_color: rgb(237, 245, 122);
+  --theme_dark_link_bg_highlight_color: rgb(255, 174, 0);
+  --theme_dark_link_text_highlight_color: rgb(36, 25, 3);
+  --alert-bg-color: rgb(231, 216, 6);
+
+  --theme_light_text_color: rgb(15, 15, 15);
+
+  --theme_light_bg_color: rgb(115, 190, 220);
+
+  --theme_darker_bg_color: rgb(6, 22, 27);
+  --theme_light_price_color: rgb(145, 20, 19);
+  --theme_dark_price_color: rgb(210, 210, 10);
+
+  --theme_light_alert_color: rgb(195, 0, 0);
+  --theme_dark_alert_color: rgb(240, 240, 45);
+
+  --theme_light_alert_bg_color: rgb(230, 245, 85);
+  --theme_dark_alert_bg_color: rgb(195, 0, 0);
+
+  --dark_box_bg_color: rgb(55, 55, 50);
+  --darker_box_bg_color: rgb(37, 37, 31);
+  --mid_box_bg_color: rgb(225, 225, 225);
+  --box_header_color: rgb(135, 20, 10);
+
+  --light_box_bg_color: rgb(240, 240, 220);
+  --footer_link_color: rgb(138, 39, 9);
+  --footer_text_color: rgb(6, 22, 27);
+} */
+
+/* .alert {
+  color: var(--alert-color);
+} */
+
+/* .theme_light {
+  color: var(--theme_light_text_color);
+  background-color: var(--theme_light_bg_color);
+} */
+
+/* .theme_dark {
+  color: var(--theme_dark_text_color);
+  background-color: var(--theme_dark_bg_color);
+} */
 
 /* .info_column {
   background: rgb(95, 85, 84);

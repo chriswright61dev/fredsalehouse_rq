@@ -1,18 +1,24 @@
 import "./Header.css";
 import HeaderLogo from "./HeaderLogo/HeaderLogo";
+import { useEffect } from "react";
 import HeaderVenueDescription from "./HeaderVenueDescription/HeaderVenueDescription";
-// import HeaderLinks from "./HeaderLinks/HeaderLinks";
 import Announcement from "../../modules/news/Announcement";
 
-function Header() {
-  return (
-    <header>
-      <HeaderLogo />
-      <HeaderVenueDescription />
-      {/* <HeaderLinks /> */}
-      <Announcement />
-    </header>
-  );
+function Header({ setHeaderReady, headerReady }) {
+  useEffect(() => {
+    setHeaderReady(true);
+  }, []);
+  if (headerReady) {
+    return (
+      <header className="animate_fade_in  duration1000">
+        <HeaderLogo />
+        <HeaderVenueDescription />
+        <Announcement />
+      </header>
+    );
+  } else {
+    return null;
+  }
 }
 
 export default Header;

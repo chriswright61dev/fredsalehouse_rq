@@ -1,0 +1,8 @@
+.header_box {
+  background: var(--box_header_color);
+  border-radius: 10px;
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 12px;
+  text-align: center;
+}

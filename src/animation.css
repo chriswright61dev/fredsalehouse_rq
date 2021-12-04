@@ -1,0 +1,86 @@
+.animate_fade_in {
+  /* animation-duration: 2s; */
+  animation-name: animate-fade-in;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+}
+
+@keyframes animate-fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate_pop_in {
+  animation-duration: 1s;
+  animation-name: animate-popin;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+}
+
+@keyframes animate-popin {
+  0% {
+    opacity: 0;
+    transform: scale(0.1, 0.1);
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale(0.3, 0.3);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+.delay600 {
+  animation-delay: 0.6s;
+}
+.delay700 {
+  animation-delay: 0.7s;
+}
+.delay800 {
+  animation-delay: 0.8s;
+}
+.delay900 {
+  animation-delay: 0.9s;
+}
+.delay1000 {
+  animation-delay: 1s;
+}
+
+.duration1000 {
+  animation-duration: 1s;
+}
+
+.duration2000 {
+  animation-duration: 2s;
+}
+
+.duration3000 {
+  animation-duration: 3s;
+}
+
+.duration4000 {
+  animation-duration: 4s;
+}
+
+.duration5000 {
+  animation-duration: 5s;
+}
+
+.duration6000 {
+  animation-duration: 6s;
+}
+
+.duration8000 {
+  animation-duration: 8s;
+}

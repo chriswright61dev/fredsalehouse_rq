@@ -1,8 +1,17 @@
 footer {
   color: var(--footer_text_color);
 }
+
 footer a {
   color: var(--footer_link_color);
+}
+footer.theme_dark {
+  background-color: var(--theme_dark_header_bg);
+}
+
+footer.theme_dark a {
+  color: var(--theme_dark_footer_link_color);
+  color: rgb(245, 207, 101);
 }
 
 footer {
@@ -10,21 +19,6 @@ footer {
   display: flex;
   font-size: 16px;
   flex-wrap: wrap;
-
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-  -ms-animation: fadein 2s; /* Internet Explorer */
-  -o-animation: fadein 2s; /* Opera < 12.1 */
-  animation: fadein 2s;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 .lpc-venue-block {
