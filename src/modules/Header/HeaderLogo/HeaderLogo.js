@@ -9,7 +9,7 @@ function HeaderLogo() {
 
     return (
       <Link to="/">
-        <div className="header_logo">
+        <div className="header_logo animate_pop_in duration2000">
           <img src={venueData.venue_logo} alt={venueData.venue_name} />
         </div>
       </Link>

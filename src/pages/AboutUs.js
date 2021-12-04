@@ -10,11 +10,11 @@ import GMap from "../components/GMap/GMap";
 import GStreetView from "../components/GStreetView/GStreetView";
 import PageTop from "../components/PageTop/Pagetop";
 
-function AboutUs() {
+function AboutUs({ headerReady }) {
   const themeName = themeSelect();
   return (
     <div className={themeName}>
-      <div className="container">
+      <div className="container animate_fade_in duration1000">
         <PageTop />
         <GMap />
         <div className="info_column">

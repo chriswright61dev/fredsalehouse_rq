@@ -1,6 +1,6 @@
 import useNews from "../../data/reactQueryHooks/useNews";
 import ImageContainer from "../../components/ImageContainer/ImageContainer";
-
+import "./news.css";
 function AboutNews() {
   const news = useNews();
   const newsdata = news.data;

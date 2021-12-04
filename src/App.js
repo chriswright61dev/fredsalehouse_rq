@@ -1,5 +1,6 @@
 import "./App.css";
 import "./AppColours.css";
+import "./animation.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
@@ -25,6 +26,7 @@ function App() {
       <Router>
         <Header setHeaderReady={setHeaderReady} headerReady={headerReady} />
         <Routes>
+          <Route path="*" element={<Home headerReady={headerReady} />}></Route>
           <Route path="/" element={<Home headerReady={headerReady} />}></Route>
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/drinks" element={<Drinks />}></Route>
