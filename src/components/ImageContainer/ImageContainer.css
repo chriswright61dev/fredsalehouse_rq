@@ -40,3 +40,15 @@
   height: 100%;
   object-fit: cover;
 }
+/* sigh - old hack way for ie, edge <88 
+safari<15
+chrome<88
+ff<89  
+opera <74 
+opera mini   */
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
