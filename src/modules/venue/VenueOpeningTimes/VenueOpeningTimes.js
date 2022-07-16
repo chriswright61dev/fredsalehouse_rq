@@ -1,11 +1,12 @@
 import useVenue from "../../../data/reactQueryHooks/useVenue";
+import "./VenueOpeningTimes.css";
 function VenueOpeningTimes() {
   const venue = useVenue();
   if (venue.status === "success") {
     const venueData = venue.data[0];
     const special = venueData.venue_opening_special;
     return (
-      <div>
+      <div className="opening_times">
         <h3>Opening Times</h3>
         <p>Monday: {venueData.venue_opening_monday}</p>
         <p>Tuesday: {venueData.venue_opening_tuesday}</p>

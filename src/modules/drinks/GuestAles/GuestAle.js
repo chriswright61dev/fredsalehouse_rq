@@ -4,8 +4,8 @@ import "./GuestAle.css";
 
 function GuestAle({
   drinkName,
-  pintPrice,
-  halfPrice,
+  // pintPrice,
+  // halfPrice,
   aleDescription,
   longerAleDescription,
   abv,
@@ -20,10 +20,10 @@ function GuestAle({
         </div>
         <div className="guest_ale__prices">
           <p>abv {abv}</p>
-          <p className="guest_ale__price">£ {halfPrice} </p>
+          {/* <p className="guest_ale__price">£ {halfPrice} </p>
           <p>Half Pint</p>
           <p className="guest_ale__price">£ {pintPrice}</p>
-          <p>a Pint</p>
+          <p>a Pint</p> */}
         </div>
       </div>
 

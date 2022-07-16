@@ -21,8 +21,8 @@ function GuestAles() {
               <GuestAle
                 key={drink.id}
                 drinkName={drink.title}
-                halfPrice={drink.price_half}
-                pintPrice={drink.price_pint}
+                // halfPrice={drink.price_half}
+                // pintPrice={drink.price_pint}
                 aleDescription={drink.guestaledescription}
                 longerAleDescription={drink.longer_guestaledescription}
                 abv={drink.abv}
