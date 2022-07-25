@@ -1,0 +1,32 @@
+.special_ale {
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  align-content: center;
+}
+
+.special_ale__name {
+  font-size: 3em;
+  color: chartreuse;
+}
+
+.special_ale__description {
+  font-size: 1.5em;
+  color: rgb(49, 44, 133);
+  width: 70ch;
+  margin: 2em;
+}
+
+.special_ale__abv {
+  font-size: 1em;
+  color: rgb(49, 44, 133);
+  margin: 1em;
+}
+
+.special_ale_image {
+  background-color: aquamarine;
+  min-width: 30vw;
+}

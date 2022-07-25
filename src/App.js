@@ -11,6 +11,7 @@ import AboutUs from "./pages/AboutUs";
 import Events from "./pages/Events";
 import Event from "./pages/Event";
 import Drinks from "./pages/Drinks";
+import PrideLevBeerPage from "./pages/PrideLevBeerPage";
 import Jobs from "./pages/Jobs";
 import Job from "./pages/Job";
 // modules
@@ -30,7 +31,10 @@ function App() {
           <Route path="/" element={<Home headerReady={headerReady} />}></Route>
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/drinks" element={<Drinks />}></Route>
-
+          <Route
+            path="/prideoflevenshulme"
+            element={<PrideLevBeerPage />}
+          ></Route>
           <Route path="/events" element={<Events />}></Route>
           <Route path="/events/:event_id" element={<Event />}></Route>
 
